@@ -1,0 +1,64 @@
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(209, 194, 194);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+  }
+  
+  .navLeft,
+  .navRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navIcon {
+    font-size: 22px;
+    margin-right: 12px;
+    cursor: pointer;
+
+  }
+  
+  .navCenter {
+    flex: 6;
+  }
+  
+  .navList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .navListItem:hover{
+      color: gray;
+  }
+  
+  .navImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+    background-image: url(../../../public/profileicon.jpg);
+  }
+  
+  .navSearchIcon {
+    font-size: 18px;
+    cursor: pointer;
+  }

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1;1,1&display=swap');
+.footerSection{
+    width: 100%;
+    background-color: #181d38;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.footerSectionitem{
+    display: flex;
+    padding-top: 30px;
+}
+.leftfooterrow{
+    width: 50%;
+    margin-left: 40px;
+}
+.rightfooterrow{
+    width: 50%;
+}
+.footerTitle{
+    font-size: 25px;
+    padding-left: 30px;
+    color: white;
+}
+.footerlist {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+  
+.footerlistitem {
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 10px;
+    color: white;
+    font-family: 'Ysabeau Office',sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+.footerlistitem:hover{
+    zoom: 110%;
+    transition: 0.5s;
+}
+.footericon{
+    color: white;
+}
+.copyright{
+    width: 100%;
+    border-top: 2px solid gray;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright span{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}

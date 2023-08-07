@@ -1,0 +1,76 @@
+body{
+  background-color: rgba(239, 206, 196, 0.181);
+}
+.about {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .aboutItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .profile {
+    margin-top: 15px;
+    width: 250px;
+    height: 250px;
+    background-image: url(../../../public/profile.jpg);
+    border-radius: 50%;
+  }
+  
+  .aboutItem > p {
+    padding: 30px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .aboutSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .resumeButton button{
+    border: none;
+    cursor: pointer;
+    background-color:cadetblue;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+  }
+  button:hover{
+    zoom: 110%;
+    background-color: darkslateblue;
+  }

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster',sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cal{
+    width: 100%;
+    max-width: 370px;
+    min-height: 630px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 22px;
+    overflow: hidden;
+    background-color: #22252D;
+}
+.screen{
+    min-height: 100px;
+    padding: 30px 19px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white; 
+    text-align: left;
+    flex: 1 1 0%;
+}
+.name{
+    display: flex;
+    color: #FFF;
+    font-family: 'sanserif';
+    justify-content: flex-end;
+    width: 100%;
+    letter-spacing: 5px;
+    line-height: 200%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.screen .content{
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	max-width: 100%;
+    border-radius: 10px;
+	overflow: auto;
+    background-color: rgb(204, 226, 218);
+    margin-top: 20px;
+}
+
+.screen .input{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #22252D;
+}
+.screen .output{
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    white-space: nowrap;
+    color: #22252D;
+}
+.screen .operator{
+    color: #bc5757;
+}
+.screen .percentage{
+    color: #0c846e
+}
+.keySection{
+    background-color: #292D36;
+	padding: 20px;
+	border-radius: 12px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: 20px;
+    box-shadow: 2px -8px 16px rgba(0, 0, 0, 0.6);
+}
+.keySection .key{
+    position: relative;
+	cursor: pointer;
+	display: block;
+	height: 0;
+	padding-top: 100%;
+	background-color: #232733;
+    border-radius: 100% 40% 100% 40%;
+	transition: 0.2s;
+	user-select: none;
+    box-shadow: inset 1px 2px 5px ;
+}
+.keySection .key span {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 25px;
+	font-weight: 200;
+	color: #FFF;
+}
+.keySection .key:hover{
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+.keySection .key.operator span,
+.keySection .key.action span{
+    color: #2ac6a9
+}

@@ -1,0 +1,84 @@
+.contact {
+    flex: 3;
+    height: fit-content;
+    margin: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: solid 1px #a7a4a4;
+    border-bottom: solid 1px #a7a4a4;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #222222;
+    font-weight: 600;
+  }
+  
+  .contactSocial {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactIcon {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+
+
+  .contacts iframe {
+    width: 100%;
+    height: 90%;
+    border: none;
+  }
+  .contacts .leftc{
+    width: 50%;
+    margin-left: 20px;
+  }
+  .contacts .rightc {
+    padding-right: 50px;
+  }
+  .contacts h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .contacts h4{
+    color: rgb(21, 164, 164);
+    font-weight: 200;
+  }
+  .contacts p {
+    color: grey;
+  }
+  .contacts .items {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .box{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .contacts .box p {
+    font-size: 17px;
+    margin-top: 10px;
+  }

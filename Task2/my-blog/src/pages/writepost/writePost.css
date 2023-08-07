@@ -1,0 +1,72 @@
+.writePost {
+    padding-top: 50px;
+    
+  }
+  
+  .writePostImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writePostForm {
+    position: relative;
+  }
+  
+  .writePostFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .writePostIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    color: rgb(11, 7, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .writePostInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+    background-color: rgba(244, 231, 227, 0.047);  }
+  
+  .writePostInput::placeholder {
+    color: rgb(177, 165, 165);
+    font-weight: 400;
+  }
+  
+  .writePostInput:focus {
+    outline-style: none;
+  }
+  
+  .writePostText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writePostSubmit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: rgb(3, 17, 60);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
